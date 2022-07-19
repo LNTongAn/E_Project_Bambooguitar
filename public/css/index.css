@@ -1,0 +1,146 @@
+.header-logo a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.header-logo a span:first-child {
+    color: orangered;
+    font-weight: 7000;
+    font-size: 24px;
+}
+    .up {
+        height: 70px;
+        margin: 0 auto;
+    }
+    
+    .up ul {
+        list-style: none;
+        margin-top: 0px;
+    }
+    
+    .up>ul>li {
+        display: inline-block;
+        padding: 100px;
+        padding-left: 0px;
+        position: absolute;
+    }
+    
+    .up ul li:hover {
+        background-color: rgba(red, green, blue, alpha);
+        border-radius: 15px;
+    }
+    
+    .up ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+        padding-right: 10px;
+    }
+    
+    .up ul li a img {
+        vertical-align: middle;
+    }
+    
+    .logo2 a img {
+        padding-right: 100px;
+    }
+    
+    .down {
+        height: 50px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .search {
+        height: 38px;
+        width: 550px;
+        background-color: white;
+        margin-left: 200px;
+        border-radius: 15px
+    }
+    
+    .search input {
+        width: 485px;
+        height: 35px;
+        border: 0px;
+        padding-left: 10px;
+        border-radius: 15px
+    }
+    .search input:focus, button:focus {
+        outline: unset !important;
+    }
+    .search button {
+        height: 30px;
+        border: 0px;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    
+    .search button img {
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        border-radius: 5px;
+    }
+    
+    .content {
+        width: 1000px;
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: 150px 150px;
+        grid-template-rows: 150px 150px 150px;
+    }
+    
+    div.slidershow {
+        background: green;
+        width: 100%;
+        height: 300px;
+    }
+        .up ul li {
+            position: relative;
+        }  
+    .submenu { 
+        position: absolute;
+        background-color: #ddd;
+        width: 300px;
+        height: auto;
+        left: 0;
+    top: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+    z-index: 10;
+}
+
+.submenu ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.submenu ul li {
+    padding: 6px 0;
+}
+
+.up ul li:hover .submenu {
+    display: block;
+}
+
+.submenu ul li:hover a {
+    color: red;
+}
+
+.submenu ul li:hover {
+    background: none;
+}
+
+
+/* -------------slider------------ */
+
+.slider {
+    background: lightgray;
+    margin: 0 auto;
+}
+
+
